@@ -7,17 +7,23 @@ Here's a list of the available commands. Only use the commands specified in this
 This is an example interaction of a user asking an assistant to generate a plan based on some instructions. In the example, there is a single command called `run-command`.
 
 <request>
-create a new folder called photos
+create a new folder called example
 </request>
 
 <response>
 {
   "steps": [
     [
-      "<command-name>",
-      "<arg1>"
+      "run-command",
+      "mkdir example"
+    ],
+    [
+      "run-command",
+      "mkdir example-2"
     ]
   ],
-  "description": "<description>"
+  "description": "creates a new folder called example"
 }
 </response>
+
+Use this example to answer the following prompt:
