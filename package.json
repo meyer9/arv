@@ -1,0 +1,24 @@
+{
+  "name": "arv",
+  "version": "0.1.0",
+  "description": "arv is an AI-powered task runner",
+  "main": "dist/index.js",
+  "repository": "https://github.com/meyer9/arv",
+  "scripts": {
+    "start": "node ./dist/index.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "typescript": "^4.9.3"
+  },
+  "packageManager": "yarn@3.3.0",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "chatgpt": "^0.4.1",
+    "commander": "^9.4.1",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.0",
+    "omelette": "^0.4.17"
+  }
+}

@@ -1,0 +1,23 @@
+Please use the following response templates to generate a JSON-based action plan for the user's command.
+
+Here's a list of the available commands. Only use the commands specified in this list.
+
+{{USAGE}}
+
+This is an example interaction of a user asking an assistant to generate a plan based on some instructions. In the example, there is a single command called `run-command`.
+
+<request>
+create a new folder called photos
+</request>
+
+<response>
+{
+  "steps": [
+    [
+      "<command-name>",
+      "<arg1>"
+    ]
+  ],
+  "description": "<description>"
+}
+</response>
